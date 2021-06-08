@@ -4,8 +4,14 @@
   "description": "Make a daily list work in todo",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "atul",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
 }
